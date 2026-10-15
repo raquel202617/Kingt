@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>King The Land Hote | Experiencia de lujo. Donde cada sonrisa cuenta</title>
+    <title>King The Land | Donde cada sonrisa cuenta</title>
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
     <!-- FontAwesome para iconos -->
@@ -41,7 +41,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            position: fixed; 
+            position: fixed;
             width: 100%;
             top: 0;
             z-index: 1000;
@@ -60,15 +60,14 @@
         nav ul {
             display: flex;
             list-style: none;
-            gap: 20px;
+            gap: 25px;
             align-items: center;
-            flex-wrap: wrap;
         }
 
         nav ul li a {
             color: #e2e8f0;
             font-weight: 400;
-            font-size: 13px;
+            font-size: 14px;
             transition: color 0.3s;
         }
 
@@ -89,17 +88,17 @@
             background-color: #f3e5ab;
         }
 
-        /* Sección Hero */
+        /* Sección Hero con imágenes inspiradas en los rodajes de Seúl */
         .hero {
             height: 100vh;
-            background: linear-gradient(90deg,rgba(5,18,34,.9),rgba(5,18,34,.55)), url('https://www.americanexpress.com/en-us/travel/discover/photos/197/56953/1200/GHS_Exterior.jpg') center/cover;
+            background: linear-gradient(rgba(11,25,44,0.6), rgba(11,25,44,0.6)), url('https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1920&q=80') no-repeat center center/cover;
             display: flex;
             flex-direction: column;
             justify-content: center;
-            align-items: flex-start;
-            text-align: left;
+            align-items: center;
+            text-align: center;
             color: #fff;
-            padding: 0 8%;
+            padding: 0 20px;
             margin-top: 70px;
         }
 
@@ -116,7 +115,7 @@
         }
 
         .hero h1 {
-            font-size: clamp(40px, 5vw, 72px);
+            font-size: 58px;
             margin-bottom: 15px;
             color: #fff;
             letter-spacing: 2px;
@@ -124,7 +123,7 @@
         }
 
         .hero p {
-            font-size: 17px;
+            font-size: 18px;
             margin-bottom: 30px;
             max-width: 650px;
             color: #e2e8f0;
@@ -136,7 +135,7 @@
             color: #0b192c;
             padding: 14px 35px;
             font-size: 15px;
-            border-radius: 30px;
+            border-radius: 4px;
             transition: background 0.3s;
             font-weight: 600;
         }
@@ -147,7 +146,7 @@
 
         /* Secciones */
         section {
-            padding: 90px 8%;
+            padding: 90px 10%;
         }
 
         .section-title {
@@ -168,61 +167,6 @@
             color: #d4af37;
         }
 
-        /* Intro con diseño corporativo */
-        .king-intro {
-            display: grid;
-            grid-template-columns: 1.15fr .85fr;
-            gap: 45px;
-            align-items: center;
-            background: #fff;
-        }
-
-        .king-intro h2 {
-            font-size: 38px;
-            color: #0b192c;
-            margin-bottom: 16px;
-        }
-
-        .king-intro p {
-            color: #657489;
-            margin-bottom: 15px;
-            font-size: 15px;
-        }
-
-        .king-photo {
-            border-radius: 24px;
-            overflow: hidden;
-            box-shadow: 0 18px 40px rgba(7,23,43,.16);
-        }
-
-        .king-photo img {
-            width: 100%;
-            height: 380px;
-            object-fit: cover;
-            display: block;
-        }
-
-        .king-pillars {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 15px;
-            margin-top: 25px;
-        }
-
-        .king-pillar {
-            padding: 15px;
-            border: 1px solid #eadfbf;
-            border-radius: 15px;
-            background: #fffaf0;
-            font-size: 13px;
-        }
-
-        .king-pillar strong {
-            display: block;
-            color: #0b192c;
-            margin-bottom: 5px;
-        }
-
         /* Habitaciones (Suites King) */
         .rooms-grid {
             display: grid;
@@ -232,11 +176,11 @@
 
         .room-card {
             background: #fff;
-            border-radius: 20px;
+            border-radius: 8px;
             overflow: hidden;
-            box-shadow: 0 15px 35px rgba(7,23,43,.09);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.06);
             transition: transform 0.3s;
-            border: 1px solid #eee5ce;
+            border: 1px solid #edf2f7;
         }
 
         .room-card:hover {
@@ -245,9 +189,8 @@
 
         .room-card img {
             width: 100%;
-            height: 270px;
+            height: 240px;
             object-fit: cover;
-            background: #e9e4d8;
         }
 
         .room-info {
@@ -267,74 +210,15 @@
         }
 
         .price {
-            font-size: 20px;
+            font-size: 18px;
             font-weight: 600;
-            color: #a47c20;
+            color: #d4af37;
             margin-bottom: 20px;
-        }
-
-        /* Sección de Videos Interactivos (NUEVO) */
-        .videos-section {
-            background-color: #07172b;
-            color: #fff;
-        }
-
-        .videos-section .section-title {
-            color: #fff;
-        }
-
-        .videos-section .section-subtitle {
-            color: #94a3b8;
-        }
-
-        .video-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
-            gap: 35px;
-        }
-
-        .video-card {
-            background: #102b4c;
-            border-radius: 16px;
-            overflow: hidden;
-            border: 1px solid rgba(215,180,90,0.3);
-            box-shadow: 0 10px 30px rgba(0,0,0,0.4);
-        }
-
-        .video-container {
-            position: relative;
-            width: 100%;
-            padding-bottom: 56.25%; /* Proporción 16:9 */
-            height: 0;
-        }
-
-        .video-container iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            border: 0;
-        }
-
-        .video-info {
-            padding: 20px;
-        }
-
-        .video-info h3 {
-            font-size: 19px;
-            color: #f4df9c;
-            margin-bottom: 8px;
-        }
-
-        .video-info p {
-            font-size: 13px;
-            color: #cbd5e1;
         }
 
         /* VVIP Lounge & Servicios */
         .services {
-            background: linear-gradient(rgba(7,23,43,.96),rgba(7,23,43,.96)), url('https://tong.visitkorea.or.kr/cms/resource/06/3422906_image2_1.png') center/cover;
+            background-color: #0b192c;
             color: #fff;
         }
 
@@ -355,11 +239,10 @@
 
         .service-box {
             padding: 40px 30px;
-            border-radius: 20px;
-            background: rgba(18,39,65,.82);
-            border: 1px solid rgba(215,180,90,.35);
+            border-radius: 8px;
+            background: #132238;
+            border: 1px solid #1e3557;
             transition: 0.3s;
-            min-height: 230px;
         }
 
         .service-box:hover {
@@ -384,7 +267,7 @@
             color: #94a3b8;
         }
 
-        /* Galería */
+        /* Galería con fotos de complejos hoteleros reales en Corea */
         .gallery-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -393,10 +276,9 @@
 
         .gallery-item {
             overflow: hidden;
-            border-radius: 18px;
-            height: 280px;
+            border-radius: 8px;
+            height: 250px;
             box-shadow: 0 4px 15px rgba(0,0,0,0.08);
-            background: #e9e4d8;
         }
 
         .gallery-item img {
@@ -404,124 +286,18 @@
             height: 100%;
             object-fit: cover;
             transition: transform 0.5s;
-            display: block;
         }
 
         .gallery-item:hover img {
             transform: scale(1.1);
         }
 
-        /* Sección de Testimonios / Reseñas (NUEVO) */
-        .testimonials {
-            background-color: #fffaf0;
-            border-top: 1px solid #eadfbf;
-            border-bottom: 1px solid #eadfbf;
-        }
-
-        .testimonials-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
-        }
-
-        .testimonial-card {
-            background: #fff;
-            padding: 30px;
-            border-radius: 16px;
-            border: 1px solid #e8dcc0;
-            box-shadow: 0 8px 20px rgba(0,0,0,0.04);
-        }
-
-        .testimonial-card p {
-            font-style: italic;
-            font-size: 14px;
-            color: #4a5568;
-            margin-bottom: 20px;
-        }
-
-        .client-info {
-            display: flex;
-            align-items: center;
-            gap: 15px;
-        }
-
-        .client-info img {
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-            object-fit: cover;
-        }
-
-        .client-info h4 {
-            font-size: 16px;
-            color: #0b192c;
-        }
-
-        .client-info span {
-            font-size: 12px;
-            color: #a47c20;
-        }
-
-        /* Formulario de Reservas */
-        .reservation {
-            background: linear-gradient(135deg,#fff,#f4efe2);
-        }
-
-        .reservation-box {
-            max-width: 1050px;
-            margin: auto;
-            padding: 40px;
-            background: #fff;
-            border-radius: 25px;
-            border: 1px solid #e8dcc0;
-            box-shadow: 0 18px 40px rgba(7,23,43,.10);
-        }
-
-        .reservation-form {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 18px;
-        }
-
-        .reservation-form .full {
-            grid-column: 1/-1;
-        }
-
-        .reservation-form label {
-            font-size: 13px;
-            font-weight: 600;
-            color: #0b192c;
-        }
-
-        .reservation-form input, .reservation-form select, .reservation-form textarea {
-            width: 100%;
-            margin-top: 7px;
-            padding: 13px;
-            border: 1px solid #d9d4c8;
-            border-radius: 10px;
-            font: inherit;
-        }
-
-        .reservation-form textarea {
-            min-height: 110px;
-        }
-
-        .reservation-message {
-            margin-top: 15px;
-            padding: 12px;
-            border-radius: 10px;
-            display: none;
-            background: #edf8f0;
-            color: #21613a;
-            font-weight: 600;
-        }
-
-        /* Pie de página */
+        /* Pie de página / Contacto */
         footer {
-            background-color: #050f1e;
+            background-color: #07101c;
             color: #fff;
-            padding: 60px 8% 20px;
-            border-top: 2px solid #d4af37;
+            padding: 60px 10% 20px;
+            border-top: 1px solid #1e3557;
         }
 
         .footer-content {
@@ -563,14 +339,6 @@
             color: #64748b;
             font-size: 13px;
         }
-
-        @media(max-width:800px) {
-            .king-intro { grid-template-columns: 1fr; }
-            .king-pillars { grid-template-columns: 1fr; }
-            .reservation-form { grid-template-columns: 1fr; }
-            .reservation-form .full { grid-column: auto; }
-            .hero { padding: 125px 7%; }
-        }
     </style>
 </head>
 <body>
@@ -581,100 +349,52 @@
         <nav>
             <ul>
                 <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#experiencia">Experiencia</a></li>
-                <li><a href="#habitaciones">Suites</a></li>
-                <li><a href="#videos">Videos y Recorridos</a></li>
-                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#habitaciones">Suites Reales</a></li>
+                <li><a href="#servicios">Salón VVIP</a></li>
                 <li><a href="#galeria">Galería</a></li>
-                <li><a href="#testimonios">Reseñas</a></li>
-                <li><a href="#reservas" class="btn-reserva">Reservar</a></li>
+                <li><a href="#contacto" class="btn-reserva">Reservar Suite</a></li>
             </ul>
         </nav>
     </header>
 
     <!-- Sección Hero -->
     <section id="inicio" class="hero">
-        <div class="hero-content">
-            <div class="hero-badge">THE KING GROUP · SEOUL</div>
-            <h1>King The Land<br><span style="color:#f4df9c">Luxury Hotel</span></h1>
-            <p>Un hotel inspirado en <em>King The Land</em>, utilizando imágenes de hoteles reales que sirvieron como locaciones de la serie y una estética de lujo en azul noche y dorado.</p>
-            <a href="#reservas" class="btn-main">Reservar mi estancia</a>
-        </div>
+        <div class="hero-badge">The King Group - Seúl</div>
+        <h1>Donde Cada Sonrisa Cuenta</h1>
+        <p>"Bienvenido al Hotel King, el icónico refugio de lujo en el corazón de Corea del Sur diseñado para convertir tus momentos en recuerdos eternos."</p>
+        <a href="#habitaciones" class="btn-main">Explorar Habitaciones</a>
     </section>
 
-    <!-- Experiencia / Introducción -->
-    <section class="king-intro" id="experiencia">
-        <div>
-            <div class="hero-badge" style="display:inline-block;color:#a47c20;border-color:#d7b45a;background:#fffaf0">LA EXPERIENCIA KING</div>
-            <h2>Elegancia, servicio y <span>sonrisas</span></h2>
-            <p>Una propuesta visual inspirada en la serie: tonos azul noche y dorado, ambientes refinados, servicio VVIP y espacios pensados para una experiencia memorable.</p>
-            <div class="king-pillars">
-                <div class="king-pillar"><strong>👑 Servicio Real</strong><span>Atención personalizada durante toda tu estancia.</span></div>
-                <div class="king-pillar"><strong>✨ Elegancia</strong><span>Espacios sofisticados con detalles dorados.</span></div>
-                <div class="king-pillar"><strong>😊 Sonrisas</strong><span>Una bienvenida cálida para cada huésped.</span></div>
-            </div>
-        </div>
-        <div class="king-photo">
-            <img src="https://www.parnashoteljeju.com/revolution/content/fileImage.do?cntntsSn=109123&fileId=109144" alt="Interior de Parnas Hotel Jeju" loading="lazy">
-        </div>
-    </section>
-
-    <!-- Habitaciones -->
+    <!-- Habitaciones con imágenes reales de lujo -->
     <section id="habitaciones">
         <h2 class="section-title">Nuestras <span>Suites Exclusivas</span></h2>
         <p class="section-subtitle">Inspiradas en las exclusivas habitaciones de los hoteles de alta gama de Seúl e Incheon.</p>
         <div class="rooms-grid">
             <div class="room-card">
-                <img src="https://www.americanexpress.com/en-us/travel/discover/photos/197/56953/1200/GHS_Exterior.jpg" alt="Suite Presidencial King" loading="lazy">
+                <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=600&q=80" alt="Suite Presidencial King">
                 <div class="room-info">
                     <h3>Suite Presidencial King</h3>
                     <p>La máxima expresión de lujo inspirada en el drama. Cuenta con sala privada, cama king-size, jacuzzi panorámico y mayordomo personal.</p>
                     <div class="price">$500 / Noche</div>
-                    <a href="#reservas" class="btn-main" style="padding: 9px 18px; font-size: 13px; display: inline-block;">Reservar Ahora</a>
+                    <a href="#contacto" class="btn-main" style="padding: 9px 18px; font-size: 13px; display: inline-block;">Reservar Ahora</a>
                 </div>
             </div>
             <div class="room-card">
-                <img src="https://www.parnashoteljeju.com/revolution/content/fileImage.do?cntntsSn=109123&fileId=109144" alt="Suite Deluxe VVIP" loading="lazy">
+                <img src="https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=600&q=80" alt="Suite Deluxe VVIP">
                 <div class="room-info">
                     <h3>Suite Deluxe VVIP</h3>
                     <p>Diseñada para huéspedes distinguidos que buscan sofisticación, acabados finos en mármol y vistas impresionantes hacia la ciudad.</p>
                     <div class="price">$320 / Noche</div>
-                    <a href="#reservas" class="btn-main" style="padding: 9px 18px; font-size: 13px; display: inline-block;">Reservar Ahora</a>
+                    <a href="#contacto" class="btn-main" style="padding: 9px 18px; font-size: 13px; display: inline-block;">Reservar Ahora</a>
                 </div>
             </div>
             <div class="room-card">
-                <img src="https://hotels.his-j.com/image/hotel/SEL/SEL00012-17.jpg" alt="Habitación Ejecutiva King" loading="lazy">
+                <img src="https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=600&q=80" alt="Habitación Ejecutiva King">
                 <div class="room-info">
                     <h3>Habitación Ejecutiva King</h3>
                     <p>Espacio moderno y elegante que combina un área de trabajo de primer nivel con un descanso reparador y diseño vanguardista.</p>
                     <div class="price">$220 / Noche</div>
-                    <a href="#reservas" class="btn-main" style="padding: 9px 18px; font-size: 13px; display: inline-block;">Reservar Ahora</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- SECCIÓN DE VIDEOS Y RECORRIDOS (ACTUALIZADA) -->
-    <section id="videos" class="videos-section">
-        <h2 class="section-title">Videos y <span>Recorridos Virtuales</span></h2>
-        <p class="section-subtitle">Explora los impresionantes paisajes, hoteles reales y tomas cinematográficas que inspiraron King The Land.</p>
-        <div class="video-grid">
-            <div class="video-card">
-                <div class="video-container">
-                    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Recorrido por el Hotel King" allowfullscreen></iframe>
-                </div>
-                <div class="video-info">
-                    <h3>Recorrido Arquitectónico por el Hotel</h3>
-                    <p>Una mirada exclusiva a los interiores de lujo y la fachada moderna de nuestras instalaciones principales.</p>
-                </div>
-            </div>
-            <div class="video-card">
-                <div class="video-container">
-                    <iframe src="https://www.youtube.com/embed/rYEiruhNmTs" title="Canción de King The Land" allowfullscreen></iframe>
-                </div>
-                <div class="video-info">
-                    <h3>Canción Oficial / Soundtrack</h3>
-                    <p>Disfruta de la música y melodías oficiales que acompañan los mejores momentos de la serie.</p>
+                    <a href="#contacto" class="btn-main" style="padding: 9px 18px; font-size: 13px; display: inline-block;">Reservar Ahora</a>
                 </div>
             </div>
         </div>
@@ -708,7 +428,7 @@
         </div>
     </section>
 
-  <!-- Galería con tomas arquitectónicas reales -->
+    <!-- Galería con tomas arquitectónicas reales -->
     <section id="galeria">
         <h2 class="section-title">Galería del <span>Hotel King</span></h2>
         <p class="section-subtitle">Conoce los majestuosos espacios y arquitectura que sirvieron de escenario en Corea del Sur.</p>
